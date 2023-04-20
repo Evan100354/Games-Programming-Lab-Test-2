@@ -20,5 +20,4 @@ flag.move();
 void update()
 {
   
-  
 }
