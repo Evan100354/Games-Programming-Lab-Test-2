@@ -6,6 +6,8 @@ class Flag
   {
     float w = 10.0f;
     float h = 6f;
+    this.h = h;
+    this.w = w;
   }
   
   void display()
@@ -44,9 +46,8 @@ class Flag
   circle(19*w,h+165,75);
   
   }
-  void move()
-  {
-  
+void move()
+{
   if(w >= 10.0f && w <= 50.0f)
   {
     w = w + 0.5;
@@ -55,5 +56,8 @@ class Flag
   {
     w = w - 1;
   }
-  }
+  
+ 
+}
+
 }
