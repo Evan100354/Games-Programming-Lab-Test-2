@@ -3,6 +3,7 @@ void setup()
   size (1000,750);
 }
 
+ArrayList<Flag> flags = new ArrayList<Flag>(10);
 
 float x,y;
 float w = 10.0f;
