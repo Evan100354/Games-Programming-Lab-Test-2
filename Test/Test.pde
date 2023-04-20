@@ -21,5 +21,4 @@ flag.render();
 
 void update()
 {
-  
 }
