@@ -65,5 +65,11 @@ void move()
     h = 6.0f;
   }
 }
+void render()
+{
+    stroke(0);
+    strokeWeight(5);
+}
+
 
 }

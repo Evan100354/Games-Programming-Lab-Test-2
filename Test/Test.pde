@@ -16,6 +16,7 @@ void draw()
 {
 flag.display();
 flag.move();
+flag.render();
 }
 
 void update()
