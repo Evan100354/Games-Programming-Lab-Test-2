@@ -1,24 +1,20 @@
 class Flag
-
 {
-  float h = 6.0f;
-  float g = 10.0f;
+  float x,y,g,h;
   
-  
-  
-  Flag(float g, float h, float g+100, float h+60);
+  Flag()
   {
-    fill(255,0,0);
-    rect(h,g,h+50,g+50);
+    float x,y;
+    float w = 10.0f;
+    float h = 6f;
   }
-  
   
   void update()
   {
-    g += 1.0f;
-    h += 1.0f;
-  }
-  
+    
+  }  
+   
+    
   void render()
   {
     

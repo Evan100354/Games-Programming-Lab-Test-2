@@ -1,14 +1,21 @@
 void setup()
 {
-  size (1000,1000);
+  size (1000,750);
 }
 
-float w = 10;
-float h = 6;
+float x,y;
+float w = 10.0f;
+float h = 6f;
+
 
 
   
 void draw()
 {
-  rect(10,5,100,50);
+  background(255);
+  fill(255,0,0);
+  rect(10*w,5*h,w+500,h+250);
+  
+  
+  
 }
